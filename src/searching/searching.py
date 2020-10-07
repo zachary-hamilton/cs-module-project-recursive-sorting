@@ -11,7 +11,7 @@ def binary_search(arr, target, start, end):
     else:    
         return -1
 
-
+'''
 # STRETCH: implement an order-agnostic binary search
 # This version of binary search should correctly find 
 # the target regardless of whether the input array is
@@ -47,3 +47,4 @@ def agnostic_binary_search(arr, target):
         return ascending_binary_search(arr, target, 0, len(arr)-1)
     else:
         return descending_binary_search(arr, target, 0, len(arr)-1)
+'''
